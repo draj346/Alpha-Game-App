@@ -28,6 +28,6 @@ This is a game based react project. In this game we have a grid with multiple co
 
 In the project directory, you can run:
 
-### To run the project we need to navigate the project directory and run `npm start` command
+#### To run the project we need to navigate the project directory and run `npm start` command
 
-### To run the unit test cases we need to navigate the project directory and run `npm test` command
+#### To run the unit test cases we need to navigate the project directory and run `npm test` command
