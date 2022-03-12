@@ -24,10 +24,8 @@ This is a game based react project. In this game we have a grid with multiple co
   - User has option to configure the text color. To do that he need to open **src/constant/Color.ts** and then need to change the FOREGROUND_ALIVE and FOREGROUND_DEAD color.
   - To add new rules in future we need to add logic in **src/utils/Rules.ts** file.
 
-## Available Scripts
-
-In the project directory, you can run:
-
-#### To run the project we need to navigate the project directory and run `npm start` command
-
-#### To run the unit test cases we need to navigate the project directory and run `npm test` command
+## How to run the application
+- First we need to donwload the Application
+- Then navigate the project directory and enter `npm i` command to install node_modules.
+- To run the project we need to navigate the project directory and run `npm start` command
+- To run the unit test cases we need to navigate the project directory and run `npm test` command
