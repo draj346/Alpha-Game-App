@@ -1,0 +1,26 @@
+@mixin header {
+    font-size: 28px;
+    line-height: 56px;
+}
+
+@mixin inlineFlexJustifyCenter {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    justify-content: center;
+}
+
+@mixin justifyCenter {
+    display:flex;
+    justify-content: center;
+}
+
+@mixin alignCenter {
+    @include justifyCenter;
+    align-items: center;
+}
+
+@mixin  alignCenterWithInlineFlex {
+    @include inlineFlexJustifyCenter;
+    align-items: center;
+}

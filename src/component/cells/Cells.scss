@@ -1,0 +1,7 @@
+@import '../../styles/index.scss';
+
+.cells {
+    @include alignCenterWithInlineFlex;
+    font-size: 18px;
+    line-height: 24px;
+}

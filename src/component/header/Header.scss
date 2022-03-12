@@ -1,0 +1,13 @@
+@import '../../styles/index.scss';
+
+header {
+    @include header;
+    @include justifyCenter;
+    height: 78px;
+    background-color: $lighPurple;
+    color: $darkBlue;
+
+    @media (min-width: 768px) {
+        height: 84px;
+    }
+}
