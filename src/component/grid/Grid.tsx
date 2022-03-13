@@ -23,9 +23,7 @@ const Grid: FunctionComponent<WithGridCalcProps> = (props) => {
                     })
                 )
             }
-            {
-                props.isGameOver ? (<h4 data-testid="gameOverId">{Labels.GAME_OVER}</h4>) : ""
-            }
+            { props.isGameOver && <h4 data-testid="gameOverId">{Labels.GAME_OVER}</h4> }
         </div>
     );
 };
