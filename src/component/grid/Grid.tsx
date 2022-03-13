@@ -17,7 +17,8 @@ const Grid: FunctionComponent<WithGridCalcProps> = (props) => {
                         return (
                             <>
                                 <Cells isAlive={!!data} value={!!data ? Labels.ALIVE : Labels.DEAD}></Cells>
-                                {(index + 1) % gridColumnSize === 0 ? <br /> : ""}
+                                { ((index + 1) % gridColumnSize === 0) && <br /> }
+
                             </>
                         );
                     })
